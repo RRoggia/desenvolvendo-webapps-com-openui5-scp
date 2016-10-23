@@ -9,7 +9,7 @@ sap.ui.define([
 			onInit: function() {
 				var oModel = new JSONModel();
 				oModel.loadData(this.pegaCaminhoArquivoPalestras(), "", false);
-				this.getView().setModel(oModel, "agenda");
+				this.getView().setModel(oModel, "evento");
 			},
 
 			pegaCaminhoArquivoPalestras: function(){

@@ -2,7 +2,7 @@
 	<App>
 		<pages>
 			<Page title="Sap Inside Track Novo Hamburgo 2016">
-				<Table>
+				<Table items="{evento>/agenda/}">
 					<columns>
 						<Column>
 							<Text text="Inicio"/>
@@ -26,12 +26,12 @@
 					<items>
 						<ColumnListItem>
 							<cells>
-								<Text text="{agenda>/inicio}"/>
-								<Text text="{agenda>/fim}"/>
-								<Text text="{agenda>/trackA/assunto}"/>
-								<Text text="{agenda>/trackA/palestrante}"/>
-								<Text text="{agenda>/trackB/assunto}"/>
-								<Text text="{agenda>/trackB/palestrante}"/>
+								<Text text="{evento>inicio}"/>
+								<Text text="{evento>fim}"/>
+								<Text text="{evento>trackA/assunto}"/>
+								<Text text="{evento>trackA/palestrante}"/>
+								<Text text="{evento>trackB/assunto}"/>
+								<Text text="{evento>trackB/palestrante}"/>
 							</cells>
 						</ColumnListItem>
 					</items>
