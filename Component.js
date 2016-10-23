@@ -5,6 +5,10 @@ sap.ui.define([
 
 		return UIComponent.extend("com.rroggia.openui5.demo.Component", {
 
+			metadata:{
+				manifest: "json"
+			},
+
 			init: function() {
 				UIComponent.prototype.init.apply(this, arguments);
 			}
