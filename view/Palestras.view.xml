@@ -2,18 +2,40 @@
 	<App>
 		<pages>
 			<Page title="Sap Inside Track Novo Hamburgo 2016">
-				<Text text="Inicio"/>
-				<Text text="{agenda>/inicio}"/>
-				<Text text="Fim"/>
-				<Text text="{agenda>/fim}"/>
-				<Text text="Track funcional (A)"/>
-				<Text text="{agenda>/trackA/assunto}"/>
-				<Text text="Palestrante"/>
-				<Text text="{agenda>/trackA/palestrante}"/>
-				<Text text="Track técnica (B)"/>
-				<Text text="{agenda>/trackB/assunto}"/>
-				<Text text="Palestrante"/>
-				<Text text="{agenda>/trackB/palestrante}"/>
+				<Table>
+					<columns>
+						<Column>
+							<Text text="Inicio"/>
+						</Column>
+						<Column>
+							<Text text="Fim"/>
+						</Column>
+						<Column>
+							<Text text="Track funcional (A)"/>
+						</Column>
+						<Column>
+							<Text text="Palestrante"/>
+						</Column>
+						<Column>
+							<Text text="Track funcional (B)"/>
+						</Column>
+						<Column>
+							<Text text="Palestrante"/>
+						</Column>
+					</columns>
+					<items>
+						<ColumnListItem>
+							<cells>
+								<Text text="{agenda>/inicio}"/>
+								<Text text="{agenda>/fim}"/>
+								<Text text="{agenda>/trackA/assunto}"/>
+								<Text text="{agenda>/trackA/palestrante}"/>
+								<Text text="{agenda>/trackB/assunto}"/>
+								<Text text="{agenda>/trackB/palestrante}"/>
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
 			</Page>
 		</pages>
 	</App>
