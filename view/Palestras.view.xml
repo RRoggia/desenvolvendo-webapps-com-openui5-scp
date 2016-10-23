@@ -1,14 +1,20 @@
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="com.rroggia.openui5.demo.controller.Palestras">
-	<Text text="Inicio"/>
-	<Text text="{agenda>/inicio}"/>
-	<Text text="Fim"/>
-	<Text text="{agenda>/fim}"/>
-	<Text text="Track funcional (A)"/>
-	<Text text="{agenda>/trackA/assunto}"/>
-	<Text text="Palestrante"/>
-	<Text text="{agenda>/trackA/palestrante}"/>
-	<Text text="Track técnica (B)"/>
-	<Text text="{agenda>/trackB/assunto}"/>
-	<Text text="Palestrante"/>
-	<Text text="{agenda>/trackB/palestrante}"/>
+	<App>
+		<pages>
+			<Page title="Sap Inside Track Novo Hamburgo 2016">
+				<Text text="Inicio"/>
+				<Text text="{agenda>/inicio}"/>
+				<Text text="Fim"/>
+				<Text text="{agenda>/fim}"/>
+				<Text text="Track funcional (A)"/>
+				<Text text="{agenda>/trackA/assunto}"/>
+				<Text text="Palestrante"/>
+				<Text text="{agenda>/trackA/palestrante}"/>
+				<Text text="Track técnica (B)"/>
+				<Text text="{agenda>/trackB/assunto}"/>
+				<Text text="Palestrante"/>
+				<Text text="{agenda>/trackB/palestrante}"/>
+			</Page>
+		</pages>
+	</App>
 </mvc:View>
