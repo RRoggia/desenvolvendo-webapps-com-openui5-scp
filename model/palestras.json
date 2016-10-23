@@ -1,15 +1,60 @@
 {
-	"inicio":"19h15",
-	"fim":"19h45",
-	"trackA":
+	"agenda":[
 		{
-			"assunto":"A transformação digital para pequenas e médias empresas SAP Business One",
-			"palestrante":"Rodrigo Feula"
+			"inicio":"19h15",
+			"fim":"19h45",
+			"trackA":
+				{
+					"assunto":"A transformação digital para pequenas e médias empresas SAP Business One",
+					"palestrante":"Rodrigo Feula"
+				},
+			"trackB":
+				{
+					"assunto":"Desenvolvendo web apps com Openui5 e implantação em HANA Cloud Platform",
+					"palestrante":"Renan Roggia"
+				}
 		},
-	"trackB":
 		{
-			"track":"Técnica (B)",
-			"assunto":"Desenvolvendo web apps com Openui5 e implantação em HANA Cloud Platform",
-			"palestrante":"Renan Roggia"
+			"inicio":"19h50",
+			"fim":"20h20",
+			"trackA":
+				{
+					"assunto":"Design Thinking para o Planejamento Estrátegico Organizacional",
+					"palestrante":"Matheus Souza e Márcio Martins"
+				},
+			"trackB":
+				{
+					"assunto":"De CDS Views para Smart Templates criando um visualizador de Nfe em 30min",
+					"palestrante":"Samuel Armbrust"
+				}
+		},
+		{
+			"inicio":"20h45",
+			"fim":"21h10",
+			"trackA":
+				{
+					"assunto":"Como a expêriencia transforma nossa rotina: uma palestra sobre UX",
+					"palestrante":"Deyse Daneze"
+				},
+			"trackB":
+				{
+					"assunto":"Arquitetura e Padrão de Projetos em ABAP",
+					"palestrante":"Licaro Dorneles"
+				}
+		},
+		{
+			"inicio":"21h15",
+			"fim":"21h45",
+			"trackA":
+				{
+					"assunto":"Assistência ao Usuario na SAP",
+					"palestrante":"Marina Sette e Aline Kuhn"
+				},
+			"trackB":
+				{
+					"assunto":"Internet das coisas e suas possibilidades",
+					"palestrante":"Carolina Darski"
+				}
 		}
+	]
 }

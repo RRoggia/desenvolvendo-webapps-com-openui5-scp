@@ -14,8 +14,10 @@
 
 		<script>
 			sap.ui.getCore().attachInit(function () {
-				sap.ui.xmlview({
-					viewName:"com.rroggia.openui5.demo.view.Palestras"
+				new sap.m.Shell({
+					app: sap.ui.core.ComponentContainer({
+						name:"com.rroggia.openui5.demo"
+					})
 				}).placeAt("content");
 			});
 		</script>
