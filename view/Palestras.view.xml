@@ -3,8 +3,12 @@
 	<Text text="{agenda>/inicio}"/>
 	<Text text="Fim"/>
 	<Text text="{agenda>/fim}"/>
-	<Text text="Track técnica (A)"/>
+	<Text text="Track funcional (A)"/>
 	<Text text="{agenda>/trackA/assunto}"/>
 	<Text text="Palestrante"/>
 	<Text text="{agenda>/trackA/palestrante}"/>
+	<Text text="Track técnica (B)"/>
+	<Text text="{agenda>/trackB/assunto}"/>
+	<Text text="Palestrante"/>
+	<Text text="{agenda>/trackB/palestrante}"/>
 </mvc:View>
