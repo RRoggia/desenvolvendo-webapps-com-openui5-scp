@@ -1,0 +1,10 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="com.rroggia.openui5.demo.controller.Palestras">
+	<Text text="Inicio"/>
+	<Text text="{agenda>/inicio}"/>
+	<Text text="Fim"/>
+	<Text text="{agenda>/fim}"/>
+	<Text text="Track técnica (A)"/>
+	<Text text="{agenda>/trackA/assunto}"/>
+	<Text text="Palestrante"/>
+	<Text text="{agenda>/trackA/palestrante}"/>
+</mvc:View>

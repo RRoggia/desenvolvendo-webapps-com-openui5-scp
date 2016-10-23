@@ -1,0 +1,15 @@
+{
+	"inicio":"19h15",
+	"fim":"19h45",
+	"trackA":
+		{
+			"assunto":"A transformação digital para pequenas e médias empresas SAP Business One",
+			"palestrante":"Rodrigo Feula"
+		},
+	"trackB":
+		{
+			"track":"Técnica (B)",
+			"assunto":"Desenvolvendo web apps com Openui5 e implantação em HANA Cloud Platform",
+			"palestrante":"Renan Roggia"
+		}
+}
