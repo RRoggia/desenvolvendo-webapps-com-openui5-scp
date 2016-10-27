@@ -6,3 +6,5 @@ A aplicação é a agenda do Evento
 [Clique aqui para acessar aplicação](https://sitnh2016-i840973trial.dispatcher.hanatrial.ondemand.com/)
 
 A parte prática da palestra foi transcrita e adaptada para que pudesse servir como tutorial. Pode encontrar o material na [wiki do projeto](https://github.com/RRoggia/sapInsideTrackNH2016/wiki/Home).
+
+![Web App que vamos construir](https://raw.githubusercontent.com/wiki/RRoggia/sapInsideTrackNH2016/images/cap3_result.PNG)
