@@ -5,7 +5,7 @@
 				<Table items="{evento>/agenda/}">
 					<columns>
 						<Column>
-							<Text text="Inicio"/>
+							<Text text="{i18n>inicio}"/>
 						</Column>
 						<Column>
 							<Text text="Fim"/>
